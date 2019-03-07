@@ -51,6 +51,6 @@ Click on the Plugins icon  on the left side panel, and install/enable the **Reco
 
 * I drop this file [.editorconfig](.editorconfig) into all of my projects.
 * You must enable the plugin [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig).
-* This file helps multiple developers stay consisten with [Tabs vs. Spaces](https://www.businessinsider.com/tabs-vs-spaces-from-silicon-valley-2016-5) and character encoding (*UTF-8*).
+* This file helps multiple developers stay consistent with [Tabs vs. Spaces](https://www.businessinsider.com/tabs-vs-spaces-from-silicon-valley-2016-5) and character encoding (*UTF-8*).
 * Other IDEs support this file, not just VS Code.
 * Hint: Two spaces is the correct answer :)
