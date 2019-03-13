@@ -28,7 +28,7 @@ Visit https://github.com/facebook/create-react-app. This is project allows you t
 
     # start existing react app
     cd my-app
-    yarn install
+    npm install
     npm start
 
 Open this repository folder with your VS Code IDE.

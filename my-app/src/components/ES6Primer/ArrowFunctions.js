@@ -18,13 +18,13 @@ const ArrowFunctions = () => {
   const addThree = x => x + 3
 
   // arrow functions do not have their own scope like traditional functions
-  var that = this
-  var thatOldWay = function() {
-    return that.value
-  }
+  // var that = this
+  // var thatOldWay = function() {
+  //   return that.value
+  // }
 
   // the above could instead be expressed without having to create a `that` variable
-  const thisNewWay = () => this.value
+  // const thisNewWay = () => this.value
 
   // chaining arrow functions
   var oldChainingFunctions = function(first) {

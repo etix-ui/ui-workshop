@@ -10,6 +10,8 @@ const ES6Primer = function() {
   return (
     <div>
       <h1>ES6 Primer</h1>
+      <h4>March 8, 2019</h4>
+
       <p>Try out <a target="babel" href="https://babeljs.io/">Babel's homepage</a> to look at how the new modern JavaScript syntax compiles out to the older JS.</p>
 
       {/* Topic Components */}
