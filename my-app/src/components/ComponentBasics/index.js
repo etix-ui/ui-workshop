@@ -1,7 +1,10 @@
 import React from 'react'
 import SimpleCounter from './SimpleCounter';
 import AdvancedCounter from './AdvancedCounter';
+
 import QiCounter from './QiCounter';
+import ZelalemCounter from './ZelalemCounter';
+import JohnCounter from './JohnCounter'
 
 function ComponentBasics() {
   return (
@@ -10,7 +13,10 @@ function ComponentBasics() {
       <h4>March 14, 2019</h4>
       <SimpleCounter />
       <AdvancedCounter defaultCount={7} />
+
       <QiCounter defaultCount={7}/>
+      <ZelalemCounter defaultCount={7} />
+      <JohnCounter defaultCount={8} />
     </div>
   )
 }
