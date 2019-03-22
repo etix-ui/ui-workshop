@@ -2,6 +2,7 @@ import React from 'react'
 import SimpleCounter from './SimpleCounter';
 import AdvancedCounter from './AdvancedCounter';
 import ZelalemCounter from './ZelalemCounter';
+import JohnCounter from './JohnCounter'
 
 function ComponentBasics() {
   return (
@@ -11,6 +12,7 @@ function ComponentBasics() {
       <SimpleCounter />
       <AdvancedCounter defaultCount={7} />
       <ZelalemCounter defaultCount={7} />
+      <JohnCounter defaultCount={8} />
     </div>
   )
 }
