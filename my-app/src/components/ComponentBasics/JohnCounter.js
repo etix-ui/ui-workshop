@@ -39,4 +39,8 @@ function JohnCounter(props) {
   )
 }
 
+JohnCounter.defaultProps = {
+  defaultCount: 0,
+}
+
 export default JohnCounter
