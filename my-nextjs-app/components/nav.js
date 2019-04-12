@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react"
+import Link from "next/link"
 
 const links = [
-  { href: 'https://github.com/segmentio/create-next-app', label: 'Github' }
+  { href: "https://github.com/segmentio/create-next-app", label: "Github" },
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link
@@ -14,6 +14,11 @@ const Nav = () => (
       <li>
         <Link prefetch href="/">
           <a>Home</a>
+        </Link>
+      </li>
+      <li>
+        <Link prefetch href="/about">
+          <a>About Us</a>
         </Link>
       </li>
       <ul>
