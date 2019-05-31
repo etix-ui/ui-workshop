@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function asdf(props) {
+function Asdf(props) {
 
   const [count, setCount] = useState(props.defaultCount)
 
@@ -40,4 +40,4 @@ function asdf(props) {
   )
 }
 
-export default asdf
+export default Asdf

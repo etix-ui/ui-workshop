@@ -54,3 +54,8 @@ Click on the Plugins icon  on the left side panel, and install/enable the **Reco
 * This file helps multiple developers stay consistent with [Tabs vs. Spaces](https://www.businessinsider.com/tabs-vs-spaces-from-silicon-valley-2016-5) and character encoding (*UTF-8*).
 * Other IDEs support this file, not just VS Code.
 * Hint: Two spaces is the correct answer :)
+
+## Semantic Versioning
+
+* Watch video here: <https://docs.npmjs.com/about-semantic-versioning>
+* Also see: <https://semver.org/>
